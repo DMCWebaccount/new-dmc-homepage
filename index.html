@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/homepage.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
+
+    <title>Daniels Manufacturing Corporation</title>
+  </head>
+  <body>
+    <!-- Nav Bar START -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container navbar-container-center">
+        <a class="navbar-brand" href="/">
+          <img alt="Logo for DMC Tools" src="./img/resc/branding-main-color.svg">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Company
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-column">
+                  <a class="dropdown-item dropdown-item--title">About DMC</a>
+                  <a class="dropdown-item" href="/about">About Us</a>
+                  <a class="dropdown-item" href="/events">Events</a>
+                  <a class="dropdown-item" href="/news">News</a>
+                  <a class="dropdown-item" href="/associations">Associations</a>
+                </div>
+                <div class="dropdown-column">
+                  <a class="dropdown-item dropdown-item--title">Org Information</a>
+                  <a class="dropdown-item" href="/compliance">Compliance</a>
+                  <a class="dropdown-item" href="/terms">Terms & Conditions</a>
+                  <a class="dropdown-item" href="/privacy">Privacy Policy</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Products
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-column">
+                  <a class="dropdown-item dropdown-item--title">Key Tools</a>
+                  <a class="dropdown-item" href="/search/page/1?fam_code=A">Crimp Tools</a>
+                  <a class="dropdown-item" href="/search/page/1?fam_code=D">Go/No Go Gages</a>
+                  <a class="dropdown-item" href="/search/page/1?fam_code=E">Installing/Removal Tools</a>
+                </div>
+                <div class="dropdown-column">
+                  <a class="dropdown-item dropdown-item--title">DMC Tools</a>
+                  <a class="dropdown-item" href="/search/page/1?fam_code=F">DMC Tool Kits</a>
+                  <a class="dropdown-item" href="/search/page/1?fam_code=G">Connector Backshell Tooling</a>
+                  <a class="dropdown-item" href="/search/page/1?fam_code=H">Wire Strip</a>
+                </div>
+                <div class="dropdown-column">
+                    <a class="dropdown-item dropdown-item--title">DMC Tools</a>
+                    <a class="dropdown-item" href="/search/page/1?fam_code=J">Safe-T-Cable</a>
+                    <a class="dropdown-item" href="/search/page/1?fam_code=L">Miscellaneous</a>
+                    <a class="dropdown-item" href="/search/page/1?fam_code=R">Shield Banding Tools</a>
+                  </div>
+                  <div class="dropdown-column">
+                      <a class="dropdown-item dropdown-item--title">Testing Equipment</a>
+                      <a class="dropdown-item" href="/search/page/1?fam_code=K">Tensile Test Equipment</a>                      
+                      <a class="dropdown-item" href="/search/page/1?fam_code=U">Contact Retention Test</a>
+                    </div>  
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Resources
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-column">
+                  <a class="dropdown-item dropdown-item--title">Key Resources</a>
+                  <a class="dropdown-item" href="/distributors">Distributors</a>
+                  <a class="dropdown-item" href="/resources-search">M39029 Search</a>
+                  <a class="dropdown-item" href="/resources-search">PDF Library</a>
+                </div>
+                <div class="dropdown-column">
+                    <a class="dropdown-item dropdown-item--title">More Resources</a>
+                    <a class="dropdown-item" href="/repair-calibration">Repairs</a>
+                    <a class="dropdown-item" href="/resources-search">Catalogs</a>
+                    <a class="dropdown-item" href="/resources-search">Videos</a>
+                  </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!--<form class="form-inline nav-search-form">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>-->
+      </div>
+    </nav>
+    <!-- Nav Bar END -->
+
+<!-- Content START -->
+
+      <!-- START Container  -->
+      <div class="container">
+
+        <!-- START Carousel Slides -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators"><!-- START Carousel Indicators -->
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1" class=""></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2" class=""></li>
+            </ol><!-- End Carousel Indicators -->
+
+            <!-- START Inner Carousel -->
+            <div class="carousel-inner">
+              
+              <div class="carousel-item active">
+                <img src='./img/home-hero.jpg'>
+
+                <!-- style="background-image: url('https://stagingdmc.com/wp-content/uploads/2019/03/about-hero.jpg'); width: 800px; height: 400px; background-repeat: no-repeat;" -->
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h1 class="card-font">Daniels Manufacturing Corporation</h1>
+                  <p class="card-font">DMC sets the standard</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Second slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Second slide label</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Third slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Third slide label</h1>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+              </div>
+
+            </div>
+            <!-- END Inner Carousel -->
+
+            <!-- START Carousel Controls -->
+              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            <!-- END Carousel Controls -->
+
+        </div>
+        <!-- END Carousel Slides -->
+
+      </div>
+    <!-- END Container -->
+
+    <!-- START Container -->
+    <div class="container">
+
+        <div class="jumbotron bg-dark--222 content-center--vertical">
+          <div class="float--left content--space">
+            <h1 class="display-4 card-font--dark">Want To Talk With Us?</h1>
+            <p class="lead card-font--dark">Our website offers detailed tooling information on our product pages. However, if you can’t find what you are looking for, please contact us, we’re happy to help!</p>
+          </div>
+          <div class="float--right content--space">
+            <a class="btn btn-primary--dark" href="/contact" role="button">Contact Us</a>
+          </div>
+          <div class="float__clear"></div>
+        </div>
+
+    </div>
+    <!-- END Continer -->
+
+    <!-- START Container -->    
+    <div class="container">
+
+      <div class="card-deck">
+
+        <a href="/search/page/1?fam_code=J" class="card">
+          <img src="./img/safe-t-cable.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Safe-T-Cable™</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </a>
+
+        <a href="/search/page/1?fam_code=K" class="card">
+          <img src="./img/test_equipment.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Tensile Test Equipment</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </a>
+
+        <a href="/search/page/1?fam_code=R" class="card">
+          <img src="./img/shield_banding_tools.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Shielded Banding Tools</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+    <!-- END Container -->
+
+    <!-- START Container -->
+    <div class="container">
+
+        <div class="card-deck">
+
+          <a href="/search/page/1?fam_code=A" class="card">
+            <img src="./img/crimp-tools.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Crimping Tools</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </a>
+
+          <a href="/search/page/1?fam_code=D" class="card">
+            <img src="./img/guages.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Go/No Go Guages</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </a>
+
+          <a href="/search/page/1?fam_code=E" class="card">
+            <img src="./img/installing_removal_tools.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Installing / Removal Tools</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+          </a>
+
+        </div>
+
+    </div>
+    <!-- END Container -->
+
+    <!-- START Container -->    
+    <div class="container">
+
+      <div class="card-deck">
+
+        <a href="/search/page/1?fam_code=F" class="card">
+          <img src="./img/dmc_tool_kits.jpg">
+          <div class="card-body">
+            <h5 class="card-title">DMC Tool Kits</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </a>
+
+        <a href="/search/page/1?fam_code=G" class="card">
+          <img src="./img/connector_backshell.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Connector Backshell Tooling</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </a>
+
+        <a href="/search/page/1?fam_code=H" class="card">
+          <img src="./img/wire_strip.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Wire Strip</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+    <!-- END Container -->
+
+    
+    <!-- START Container -->
+    <div class="container margin-bottom--1-25">
+        
+       <!-- <div class="featured--large rounded">
+
+
+
+        </div>
+
+        <h1 class="display-4 content--center">Featured Post</h1> 
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+        <a href="/news">
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">News</text></svg>
+        </a>
+
+    </div>
+    <!-- END Container -->
+
+
+    <!-- START Container -->
+    <div class="container">
+      <!-- START Row -->  
+      <div class="row mb-2">
+
+        <!-- START Column -->
+        <div class="col-md-6">
+
+           <!-- START Row --> 
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            
+            <div class="col p-4 d-flex flex-column position-static center--vertical">
+              <h5 class="mb-0">2019 Paris Air Show</h5>
+              <div class="mb-1 text-muted">Jun 16th - 22nd 2019</div>
+              <p class="card-text">Since its launch in 1909, the International Paris Air Show has constantly grown, and remains the largest aerospace event in the world.</p>
+              <a href="/events/13" class="stretched-link">Continue reading</a>
+            </div>
+
+            <div class="col-auto d-none d-lg-block">
+              <img src="./img/events/event-1.jpg">
+            </div>
+
+          </div>
+          <!-- END Row -->
+
+        </div>
+        <!-- END Column -->
+
+        <!-- START Column -->
+        <div class="col-md-6">
+
+          <!-- START Row -->
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            
+            <div class="col p-4 d-flex flex-column position-static center--vertical">
+              <h5 class="mb-0">AEA International Convention & Trade Show</h5>
+              <div class="mb-1 text-muted">Mar 24th - 27th 2019</div>
+              <p class="card-text">The largest gathering of general aviation avionics manufacturers, distributors and government-certified repair stations in the world.</p>
+              <a href="/events/3" class="stretched-link">Continue reading</a>
+            </div>
+
+            <div class="col-auto d-none d-lg-block">
+              <img src="./img/events/AEA-Show-Logo-2019x200.png">
+            </div>
+
+          </div>
+          <!-- END Row -->
+
+        </div>
+        <!-- END Column -->
+
+      </div>
+      <!-- END Row -->
+    </div>
+    <!-- END Container -->
+
+    <!-- START Container
+    <div class="container">
+
+        <div class="jumbotron bg-dark--222 content-center--vertical">
+          <div class="float--left content--space">
+            <h1 class="display-4 card-font--dark">Want To Talk With Us?</h1>
+            <p class="lead card-font--dark">Our website offers detailed tooling information on our product pages. However, if you can’t find what you are looking for, please contact us, we’re happy to help!</p>
+          </div>
+          <div class="float--right content--space">
+            <a class="btn btn-primary--dark" href="/contact" role="button">Contact Us</a>
+          </div>
+          <div class="float__clear"></div>
+        </div>
+
+    </div>
+-->
+
+      <!----------- Footer START ------------>
+      <div class="footer--jumbotron bg-dark--222 content-center--vertical">
+        <div class="container">
+          <div class="footer--card-deck">
+            <div class="footer--card">
+              <div class="footer--card-body">
+                <h5 class="footer--card-title">About DMC</h5>
+                <p class="footer--card-text">DMC sets the standard – DMC is the leading manufacturer & supplier of tooling for the aircraft, aerospace and electronics industries in the United States.</p>
+              </div>
+            </div>
+            <div class="footer--card">
+              <div class="footer--card-body">
+                <h5 class="footer--card-title">Get in Touch</h5>
+                <p class="footer--card-text">Hours - 8:00pm - 5:00pm EST <br>
+                  Phone - (407) 855-6161 <br>
+                  Email - DMC@dmctools.com <br>
+                  Address - 526 Thorpe Road <br>
+                  Orlando, FL 32824 USA
+                </p>
+                
+              </div>
+            </div>
+            <div class="footer--card">
+              <div class="footer--card-body">
+                <h5 class="footer--card-title">Connect</h5>
+                <p class="footer--card-text">
+                  <a href ="https://twitter.com/dmctools" target="_blank">- Twitter </a><br>
+                  <a href ="https://www.youtube.com/channel/UC1k3m8-DxBmf_J06eT0LH3g" target="_blank">- YouTube </a><br>
+                  <a href ="https://www.facebook.com/dmctools/" target="_blank">- Facebook </a><br>
+                  <a href ="https://www.linkedin.com/company/daniels-manufacturing-corporation/" target="_blank">- LinkedIn </a><br>
+                </p>
+              </div>
+            </div>
+          </div>
+            <div class="footer--copy">
+                <p class="footer--card-text">Ⓒ Daniels Manufacturing Corporation</p>
+            </div>
+        </div>
+      </div>
+      <!-- Footer END -->
+
+      <!-- Content END -->
+    
+    
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
